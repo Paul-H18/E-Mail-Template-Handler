@@ -10,9 +10,16 @@ class JsonHandler
 {
 private:
     std::string filePath;
+    std::ifstream file;
+    nlohmann::json jsonFile;
+
+    int openFile();
 
 public:
     JsonHandler(std::string filePath);
+
+    std::string getFilePath();
+    void setFilePath(std::string filePath);
     
     void read();
 };

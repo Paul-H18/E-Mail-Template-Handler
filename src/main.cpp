@@ -9,7 +9,7 @@ int main() {
     std::cout << "Hello World" << std::endl;
 
 
-    JsonHandler js("/var/www/html/test/path");
+    JsonHandler js("./resources/settings.json");
     js.read();
 
     return 0;

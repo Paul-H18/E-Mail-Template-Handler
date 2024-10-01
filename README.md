@@ -2,6 +2,8 @@
 
 - My first real C++ project ever!
 
+- Still in development, so it doesnt really work and will take some time, before it will!
+
 - Renders a single .html file of a collection of html, css, js files
 
 ### What will you be able to with it?
@@ -22,5 +24,7 @@ Make sure you have following libraries installed on your system:
 
 - ./compile.sh -> creates executable
 - ./compile.sh -s -> compiles and runs the executable
+
+- Note: There are vscode tasks for this as well!
 
 

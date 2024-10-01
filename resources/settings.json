@@ -1,5 +1,28 @@
 {
-    "name":"Paul Hornig",
-    "age":24,
-    "file":"~/Schule/Nebenbei/E-Mail-Template-Handler/resources/test.txt"
+    "output": {
+        "name":"index.html",
+        "path":"/home/paul/Downloads/testJson/output/"
+    },
+    "input": [
+            {
+                "name":"index.html",
+                "type":"html",
+                "path":"/home/paul/Downloads/testJson/"
+            },
+            {
+                "name":"app.css",
+                "type":"css",
+                "path":"/home/paul/Downloads/testJson/"
+            },
+            {
+                "name":"navbar.css",
+                "type":"css",
+                "path":"/home/paul/Downloads/testJson/"
+            },
+            {
+                "name":"app.js",
+                "type":"js",
+                "path":"/home/paul/Downloads/testJson/"
+            }   
+        ]
 }
