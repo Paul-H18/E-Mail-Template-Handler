@@ -16,12 +16,34 @@
             "label": "Compile",
             "type": "shell",
             "command": "./compile.sh",
+            "args": [""],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiles the program."
+        },
+        {
+            "label": "macOS Compile and Run",
+            "type": "shell",
+            "command": "./compile_mac.sh",
             "args": ["-s"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "detail": "Compiles and runs the program."
+        },
+        {
+            "label": "macOS Compile",
+            "type": "shell",
+            "command": "./compile_mac.sh",
+            "args": [""],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiles the program."
         }
     ]
 }

@@ -20,6 +20,9 @@ Make sure you have following libraries installed on your system:
 - nlohmann/json.hpp
 
 
+Note: Make sure that the paths to the lib's in the compile.sh's are right.
+You can create a compile.local.sh!
+
 ##### Currently there is only the compile.sh:
 
 - ./compile.sh -> creates executable
