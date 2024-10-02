@@ -1,3 +1,6 @@
 eMailTemplateHelper
 compile.local.sh
 compile_mac.local.sh
+data
+build/compile.local.sh
+build/compile_mac.local.sh
